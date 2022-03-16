@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal
 import numpy as np
-from env.SISO import SISO_Channel, sum_rate
+from env.SISO_env_V2 import SISO_Channel, sum_rate
 from utils import WMMSE_sum_rate
 import wandb
 

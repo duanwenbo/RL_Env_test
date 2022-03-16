@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from env.SISO import SISO_Channel, sum_rate
+from env.SISO_env_V2 import SISO_Channel, sum_rate
 
 
 

@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal
 import numpy as np
-from SISO_env import SISO_Channel
+from env.SISO_env_V1 import SISO_Channel
 import wandb
 
 
